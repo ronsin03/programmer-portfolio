@@ -1,0 +1,32 @@
+ul.main-menu {
+    padding: 23%;
+    position: absolute;
+    margin: 0;
+    width: 80px;
+    right: -96px;
+    background-color: #fff;
+    border-radius: 50px;
+    z-index: 99;
+    list-style: none;
+    top: 0;
+    -webkit-box-shadow: 0 0 30px -5px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 0 30px -5px rgba(0,0,0,.15);
+    box-shadow: 0 0 30px -5px rgba(0,0,0,.15);
+}
+
+li{
+    margin-top: 80%;
+    margin-bottom: 80%;
+}
+i.fa-graduation-cap{
+    margin-left: -25%;
+}
+i.fa-user{
+    margin-left: 10%;
+}
+i.active, i:hover{
+    color: #0ba376;
+}
+ul.mar-menu{
+    margin-top: 300%;
+}

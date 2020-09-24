@@ -1,0 +1,79 @@
+<div class="main-section pad-main-section scrollbar scrollbar-default">
+    <div>
+        <h2>Personel Info</h2>
+    </div>
+    <div class = "col-sm-12 col-xs-12 col-lg-12 col-md-12 main-cont">
+        <div class = "col-sm-6 col-xs-6 col-lg-6 col-md-6">
+            <p> {{quote}}</p>
+        </div>
+        <div class = "col-sm-6 col-xs-6 col-lg-6 col-md-6">
+            <ul>
+                <li *ngFor="let det of perdetail">
+                    <span class="title">{{det.key}}</span>
+                    <span class="value">{{det.value}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class = "col-sm-12 col-xs-12 col-lg-12 col-md-12 main-cont">
+        <div class="title1">
+            <h2>Education</h2>
+            <div class="timeline-item clearfix" *ngFor="let edu of education">
+                <div class="left-part">
+                    <h4 class="item-period">{{edu.year}}</h4>
+                    <span class="item-company">{{edu.from}}</span>
+                    
+                </div>
+                <div class="divider"></div>
+                <div class="right-part">
+                    <h4 class="item-title">{{edu.division}}</h4>
+                    <div><p>{{edu.data}}</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "col-sm-12 col-xs-12 col-lg-12 col-md-12 main-cont">
+        <div class="title1">
+            <h2>Extracurricular Activities</h2>
+            <div class="extra">
+                <ul>
+                    <li *ngFor="let ext of extra">
+                        <span class="value">{{ext.value}}</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class = "col-sm-12 col-xs-12 col-lg-12 col-md-12 main-cont pad0">
+        <div class = "col-sm-6 col-xs-6 col-lg-6 col-md-6 title1">
+            <h2>Hobbies</h2>
+            <div class="extra">
+                <ul>
+                    <li *ngFor="let hob of hobby">
+                        <span class="value">{{hob.value}} </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class = "col-sm-6 col-xs-6 col-lg-6 col-md-6 title1">
+            <h2>Linguistic Proficiency</h2>
+            <div class="skills-info skills-first-style">
+                <div class="clearfix">
+                    <h4>English</h4>
+                    <div class="skill-value">90%</div>
+                </div>
+                <div id="skillper" data-value="90" data-color="#0BA376" class="skill-container">
+                    <div class="skill-percentage"></div>
+                </div>
+                <div class="clearfix">
+                    <h4>Hindi</h4>
+                    <div class="skill-value">90%</div>
+                </div>
+                <div id="skillper" data-value="90" data-color="#0BA376" class="skill-container">
+                    <div class="skill-percentage"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>

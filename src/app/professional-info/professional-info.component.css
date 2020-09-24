@@ -1,0 +1,124 @@
+.title{
+    margin-right: 5px;
+    font-weight: 600;
+    color: #0ba376;
+}
+ .timeline-item {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.timeline-item .left-part {
+    width: 30%;
+    display: table-cell;
+    padding-right: 25px;
+    min-height: 100%;
+    text-align: right;
+    vertical-align: top;
+    text-align: right;
+}
+.timeline-item .item-period {
+    margin: 3px 0;
+    font-size: 14px;
+    line-height: 1.4em;
+    padding-top: 3px;
+}
+.timeline-item .item-company {
+    display: block;
+    margin: 0 0 4px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.45em;
+    color: #a5a6a7;
+}
+.timeline-item .divider {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    bottom: 0;
+    width: 1px;
+    background-color: #eee;
+    background-color: #0ba376;
+    border-color: #0ba376;
+}
+.divider::before {
+    background-color: #0ba376;
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 4px;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    margin-left: -8px;
+    border-radius: 10px;
+    background-color: #04b4e0;
+    opacity: .25;
+    z-index: 0;
+}
+.divider::after {
+    background-color: #0ba376;
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    width: 9px;
+    height: 9px;
+    margin-left: -4px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid #04b4e0;
+    z-index: 1;
+}
+.timeline-item .right-part {
+    width: 70%;
+    display: table-cell;
+    padding-left: 25px;
+    padding-right: 15px;
+    vertical-align: top;
+}
+.timeline-item .item-title {
+    margin: 0;
+    padding: 2px 0 10px;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.skills-info.skills-first-style h4 {
+    font-size: 13px;
+    line-height: 1.1em;
+    position: relative;
+    float: left;
+    margin: 0 0 4px;
+}
+.knowledges li {
+    display: inline-block;
+    background-color: #0ba376;
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px 10px;
+    line-height: 1.2;
+    margin: 3px 2px;
+    font-size: 13px;
+}
+.title1 h2{
+    font-family: "Poppins",Helvetica,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #222;
+    position: relative;
+    font-size: 21px;
+    margin: 0 0 2px;
+    z-index: 1;
+    margin-bottom: 5%;
+}
