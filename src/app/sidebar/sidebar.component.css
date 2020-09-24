@@ -40,3 +40,19 @@ h4{
 .mar-side{
     margin-top: 30%;
 }
+@media only screen and (max-width: 1024px){
+    .sidebar {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 0 122px;
+        overflow: hidden;
+        background: none;
+        border-radius: 0px;
+        margin-top: 0%;
+        padding: 9%;
+        text-align: center;
+        box-shadow: none;
+        min-height: auto;
+    }
+}

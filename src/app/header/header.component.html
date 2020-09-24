@@ -1,12 +1,26 @@
 
-<ul class="main-menu">
-      <li routerLink="/home" ><i routerLinkActive="active" class="fa fa-home" aria-hidden="true"></i></li>
-      <li routerLink="/personel-info" ><i routerLinkActive="active" class="fa fa-user" aria-hidden="true"></i></li>
-      <li routerLink="/professional-info" ><i routerLinkActive="active" class="fa fa-graduation-cap" aria-hidden="true"></i></li>
-      <li routerLink="/contact" ><i routerLinkActive="active" class="fa fa-envelope" aria-hidden="true"></i></li>
-</ul>
-<ul class="main-menu mar-menu">
-      <li ><a href="https://www.linkedin.com/in/rohan-singh-86b983135/" target="blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-      <li ><a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-      <li><a href="https://twitter.com/login?lang=en" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-</ul>
+<div class="dis">
+      <ul class="main-menu">
+            <li routerLink="/home" ><i routerLinkActive="active" class="fa fa-home" aria-hidden="true"></i></li>
+            <li routerLink="/personel-info" ><i routerLinkActive="active" class="fa fa-user" aria-hidden="true"></i></li>
+            <li routerLink="/professional-info" ><i routerLinkActive="active" class="fa fa-graduation-cap" aria-hidden="true"></i></li>
+            <li routerLink="/contact" ><i routerLinkActive="active" class="fa fa-envelope" aria-hidden="true"></i></li>
+      </ul>
+      <ul class="main-menu mar-menu">
+            <li ><a href="https://www.linkedin.com/in/rohan-singh-86b983135/" target="blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li ><a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/login?lang=en" target="blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      </ul>
+</div>
+<div class="floating dis1" (click)="openNav()">
+      <i class="fa fa-plus-circle" aria-hidden="true"></i>
+</div>
+<div id="mySidenav" class="sidenav dis1">
+      <a href="javascript:void(0)" class="closebtn" (click)="closeNav()"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+      <app-sidebar></app-sidebar>
+      <a routerLink="/home" routerLinkActive="active" (click)="closeNav()">Home</a>
+      <a routerLink="/personel-info" routerLinkActive="active" (click)="closeNav()">Personel Info</a>
+      <a routerLink="/professional-info" routerLinkActive="active" (click)="closeNav()">Professional Info</a>
+      <a routerLink="/contact" routerLinkActive="active" (click)="closeNav()">Contact</a>
+
+</div>

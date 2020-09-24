@@ -31,7 +31,7 @@ export class PersonelInfoComponent implements OnInit {
     },{
       "key": "Phone",
       "value": "+91 8931950403"
-    }]
+    }];
     this.education = [{
       "year": "2010",
       "from": "Udai Pratap Public School, Varanasi",
@@ -47,7 +47,7 @@ export class PersonelInfoComponent implements OnInit {
       "from": "United College of Engineering and Research, Allahabad",
       "division": "Computer Science and Engineering",
       "data": "with 70%. Majored in Operating System, Data Structure, Algorithm, and Software Engineering."
-    }]
+    }];
     this.extra = [{
       "value":"Participated in Android workshop organised by IIT-BHU."
     },{
@@ -56,7 +56,7 @@ export class PersonelInfoComponent implements OnInit {
       "value":"Participated in School Cricket Tournament. Appointed as a House Captain."
     },{
       "value":"Worked as the Volunteer in the college Fest."
-    }]
+    }];
     this.hobby = [{
       "value":"Problem-solving puzzles."
     },{
@@ -65,7 +65,7 @@ export class PersonelInfoComponent implements OnInit {
       "value":"Reading books."
     },{
       "value":"Playing games."
-    }]
+    }];
   }
 
 }

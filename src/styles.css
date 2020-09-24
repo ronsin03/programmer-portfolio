@@ -5,6 +5,12 @@
     font-size: 200% !important;
     color: #b5b6b7;
 }
+.dis{
+    display: block;
+}
+.dis1{
+  display: none;
+}
 body{
     background-color: #f1f1f1;
     font-family: "Poppins",Helvetica,sans-serif;
@@ -244,5 +250,114 @@ h4{
     opacity: 1;
     color: #0BA376;
     font-weight: 600;
+}
+@media only screen and (max-width: 812px){
+    body{
+    background-color: #fff;
+    font-family: "Poppins",Helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.75em;
+    color: #555;
+    padding-right: 0px;
+    padding-left: 0px;
+    }
+    .scrollbar {
+        margin-left: 0px;
+        float: left;
+        height: auto;
+        width: 100%;
+        background: #fff;
+        overflow-y: scroll;
+        margin-bottom: 25px;
+    }
+    .main-section {
+        padding: 20px;
+        background-color: #fff;
+        position: relative;
+        height: auto;
+        width: 100%;
+        min-width: 100%;
+        min-height: 100%;
+        margin-top: 1%;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+    .main-cont {
+        display: block;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    .floating{
+        cursor: pointer;
+        padding: 30px;
+        position: fixed;
+        top: 0;
+        color: #0ba376;
+        font-weight: 600;
+        margin-left: 75%;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #0ba376;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #fff;
+        display: block;
+        transition: 0.3s;
+        text-align: center;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      .floating i{
+        float: right;
+        margin-top: -2%;
+        color: #0ba376;
+      }
+      .sidenav i{
+          color: #fff;
+          font-size: inherit !important;
+          margin-left: 70%;
+      }
+      .dis1{
+          display: block;
+      }
+      .dis{
+        display: none;
+    }
+    .main-scrn-mar {
+        margin-left: 0px;
+    }
+    .fa {
+        font-size: 360% !important;
+    }
 }
     
